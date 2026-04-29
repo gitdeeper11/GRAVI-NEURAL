@@ -1,0 +1,16 @@
+GRAVI-NEURAL
+Copyright (c) 2026 Samir Baladi (Ronin Institute / Rite of Renaissance)
+DOI: 10.5281/zenodo.19871822
+
+This product includes software developed by:
+- PyTorch (BSD-style license)
+- JAX (Apache 2.0 license)
+- NumPy (BSD 3-Clause)
+- SciPy (BSD 3-Clause)
+
+This product includes data from:
+- SXS Collaboration (binary black hole waveforms)
+- CoRe Consortium (binary neutron star waveforms)
+- GRACE-FO Science Team (satellite gravity gradiometry)
+
+"The geometry of spacetime is not a fixed stage — it is an active participant."

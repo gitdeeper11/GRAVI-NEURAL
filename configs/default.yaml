@@ -1,0 +1,36 @@
+# GRAVI-NEURAL Default Configuration
+
+environment:
+  name: default
+  regime: bbh
+  mass_ratio: 2.0
+  spin: 0.5
+
+cno:
+  latent_dim: 256
+  fourier_modes: 16
+  physical_constants: geometric
+
+gno:
+  latent_dim: 256
+  num_layers: 12
+  fourier_modes: 16
+
+stcn:
+  covariance_tolerance: 0.001
+  equivariant_layers: 4
+
+mgan:
+  latent_dim: 128
+  calibration: GRACE-FO
+
+training:
+  epochs: 300
+  learning_rate: 3.0e-4
+  batch_size: 32
+  optimizer: adamw
+  scheduler: cosine_annealing
+
+monitoring:
+  alert_threshold: 0.02
+  save_history: true

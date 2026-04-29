@@ -1,0 +1,19 @@
+# Binary Black Hole Configuration (R1)
+
+environment:
+  name: bbh
+  regime: R1
+  mass_ratio: 2.0
+  spin_magnitude: 0.5
+  spin_orientation: aligned
+  eccentricity: 0.0
+
+cno:
+  latent_dim: 256
+  fourier_modes: 16
+
+efe_thresholds:
+  EXCELLENT: 0.005
+  GOOD: 0.010
+  MODERATE: 0.020
+  CRITICAL: 0.050

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use GRAVI-NEURAL, please cite:"
+title: "GRAVI-NEURAL: Covariant Neural Characterization of Metric Tensor Perturbations"
+authors:
+  - family-names: "Baladi"
+    given-names: "Samir"
+    orcid: "https://orcid.org/0009-0003-8903-0029"
+version: 1.0.0
+doi: 10.5281/zenodo.19871822
+date-released: 2026-04-29
+license: MIT
+repository-code: "https://gitlab.com/gitdeeper11/GRAVI-NEURAL"

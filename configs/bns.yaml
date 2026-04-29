@@ -1,0 +1,18 @@
+# Binary Neutron Star Configuration (R2)
+
+environment:
+  name: bns
+  regime: R2
+  mass_ratio: 1.0
+  tidal_deformability_lambda: 500
+  equation_of_state: SLy
+
+cno:
+  latent_dim: 256
+  fourier_modes: 16
+
+efe_thresholds:
+  EXCELLENT: 0.008
+  GOOD: 0.015
+  MODERATE: 0.030
+  CRITICAL: 0.060
